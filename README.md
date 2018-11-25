@@ -19,6 +19,7 @@ A simple game of BlackJack
 •	The game goes one round as a demo, to extend it I would add a continue button after the end of the round, which would then enable the BettingUI and then repeat that loop until the player runs out of money or cashes out (which would be a button as well after each round)¸and then enable the end game buttons to replay or go back to the main menu.
 
 ## Known Issues
+
 •	Later in development I ran into some issues that I didn’t manage to fix properly due to time constraints. 
 
 •	The loading of the game deletes the dictionaries as they are not serialized. This causes the Cards In Play to be deleted and the dealer is not able to flip his first card when his turn comes. This was “fixed” (not really…) by instantiating the card with the same value on top of the face down one.
